@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="username">username :</label>
+        <input type="text" id="username" placeholder="shivu parsad vibuti" minlength="6" maxlength="14"><br>
+
+        <label for="passward" >passward : </label>
+        <input type="password" id="passward"><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="udri420@gmail.com"><br>
+
+        <label for="phone">phone #</label>
+        <input type="tel" id="phone" placeholder="6969696969" pattern="[0-9]{10}"><br>
+
+        <label for="bday">Birthday :</label>
+        <input type="date" id="bday" required><br>
+
+        <label for="quantity">quantity :</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+        <label for="title">title :</label>
+
+        <label for="mr">Mr </label>
+        <input type="radio" id="mr" value="Mr" name="title">
+        <label for="ms">Ms</label>
+        <input type="radio" id="ms" value="Ms" name="title">
+        <label for="dr">Dr </label>
+        <input type="radio" id="dr" value="Dr" name="title"><br>
+
+        <label for="payment">Payment :</label>
+        <select id="payment">
+            <option value="visa">visa</option>
+            <option value="mastercad">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select><br>
+
+        <label for="condition">condition :</label>
+        <input type="checkbox" name="" id="condition"><br>
+
+        <label for="comm">Comment :</label>
+        <textarea id="comm" rows="3" cols="25" placeholder="udri420"></textarea><br>
+
+        <label for="file"> File :</label>
+        <input type="file" name="" id="file" accept="image/png,img/jpg"><br>
+         
+
+        <input type="reset"><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
